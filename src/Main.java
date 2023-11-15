@@ -7,6 +7,7 @@ public class Main{
 
 //        isNguyenTo(8);
 
+
 //        System.out.println(findFiboN(7));
 
         System.out.println(findNearestPrimeOf(8));
