@@ -1,3 +1,5 @@
+package demo1;
+
 public class Main{
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -11,6 +13,17 @@ public class Main{
 //        System.out.println(findFiboN(7));
 
         System.out.println(findNearestPrimeOf(8));
+
+        Car c = new Car();
+        Car c1 = new Car();
+        System.out.println(c.ownerOfCar.name);
+
+        c.run();
+        c1.run();
+        c.color ="green";
+        c1.color="orange";
+        c.printColor();
+        c1.printColor();
     }
     static void sayHello(String msg) {
         System.out.println("hello" + msg );
