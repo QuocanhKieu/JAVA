@@ -1,5 +1,7 @@
 package demo1;
 
+import buoi3.Bike;
+
 public class Main{
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -24,6 +26,9 @@ public class Main{
         c1.color="orange";
         c.printColor();
         c1.printColor();
+        Bike b = new Bike();
+        b.brand = "Yamaha";
+
     }
     static void sayHello(String msg) {
         System.out.println("hello" + msg );

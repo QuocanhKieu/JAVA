@@ -1,14 +1,15 @@
 package demo2;
 
 public class Product {
-    public Product(String Id,String name, float price,int qty, String unit) {
+
+    public Product(String id, String name, float price, int qty, String unit) {
+        Id = id;
         this.name = name;
         this.price = price;
-        this.Id = Id;
-        this.unit = unit;
         this.qty = qty;
-
+        this.unit = unit;
     }
+
     String Id;
     String name;
     float price = 0;
