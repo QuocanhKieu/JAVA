@@ -71,7 +71,7 @@ public class GiaoVien extends Person{
                 break;
             }
 
-            stringList.add(input);
+            dsLopDay.add(input);
         }
 
     }
