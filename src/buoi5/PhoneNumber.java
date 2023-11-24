@@ -31,7 +31,7 @@ public class PhoneNumber {
 
     public PhoneNumber (String name, String number) {
         this.name = name;
-        this.phone = new ArrayList<>();
+//        this.phone = new ArrayList<>();
         this.phone.add(number);
 
     }
